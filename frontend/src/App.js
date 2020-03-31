@@ -1,25 +1,10 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';//1- importando o Header
+import './global.css';// importando o estilo global
+import Routes from './routes';//2- importa as rotas
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-         Base Modelo¡¡!!!
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+function App(){
+  return (//usa as rotas
+    <Routes />
   );
 }
 

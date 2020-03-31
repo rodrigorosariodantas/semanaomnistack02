@@ -5,7 +5,7 @@ const OngController = require('./controllers/OngController');//17- apos levar os
 const IncidentController = require('./controllers/IncidentController');//22- variavel importada depois de criada no IncidentController
 const ProfileController = require('./controllers/ProfileController');//26- creado depois do arquivo ProfileController
 const SessionController = require('./controllers/SessionController');
-const routes = express.Router();//2- cria variavel chamada routes
+const routes = express.Router();//2- cria variavel chamada routes pegando o modulo express
 // apaga a importacao da conexao pq nao eh mais
 //usadas aqui no routes const connection = require('./database/connection');//8- importado para estabelecer conexao com o bd
 
