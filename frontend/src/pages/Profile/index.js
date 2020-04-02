@@ -67,7 +67,7 @@ export default function Profile() {//3- cria a funcao
                                             //com um valor unico q nao vai mudar, neste caso id
                     <li key={incident.id}> 
                         <strong>Caso:</strong>
-                        <p>{incident.tittle}</p>
+                        <p>{incident.title}</p>
 
                         <strong>Descrptions</strong>
                         <p>{incident.description}</p>
